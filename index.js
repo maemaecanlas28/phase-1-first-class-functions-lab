@@ -1,13 +1,12 @@
 // Code your solution in this file!
 const returnFirstTwoDrivers = function (drivers) {
-    const listOfDrivers = ['Antonia', 'Nuru', 'Amari', 'Mo'];
-    const newList = listOfDrivers.slice(0,2);
+    const newList = drivers.slice(0,2);
     return newList;
 }
+console.log(returnFirstTwoDrivers(["Cocoa Puffs", "Cream Puffs", "Honey Puffs"]));
 
 const returnLastTwoDrivers = function (drivers) {
-    const listOfDrivers = ['Antonia', 'Nuru', 'Amari', 'Mo'];
-    const newList = listOfDrivers.slice(-2);
+    const newList = drivers.slice(-2);
     return newList;
 }
 
